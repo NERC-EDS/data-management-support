@@ -1,5 +1,5 @@
 ---
-name: Support request
+name: Question or support request
 about: Get help with a usability issue.
 title: ''
 labels: Support
