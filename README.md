@@ -8,4 +8,7 @@ Use the support board to get help with data management tracking on GitHub Projec
 - 🚩 Flag documentation gaps
 - 💬 Ask usability-related questions
 
-**Before adding a support request, check if the information you need is in the ℹ️ [documentation](https://github.com/NERC-EDS/data-management/blob/main/documentation/nerc-grants-project-full-documentation.md)**.
+#### ℹ️ Check the docs before adding a support request:
+
+- [NERC grants | Full documentation](https://github.com/NERC-EDS/data-management/blob/main/documentation/nerc-grants-full-documentation.md) (~10 mins reading time)
+- [NERC grants | Quick reference guide](https://github.com/NERC-EDS/data-management/blob/main/documentation/nerc-grants-tracking-quickref.md) (~5 mins reading time)
