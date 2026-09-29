@@ -1,0 +1,30 @@
+name: Improvement or feature request
+description: Suggest an improvement.
+title: "[Feat]: "
+labels:
+  - Feature
+projects:
+- "NERC-EDS/7"
+
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what you want to happen.
+      placeholder: What happened?
+    validations:
+      required: true
+
+    - type: textarea
+    id: problem-description
+    attributes:
+      label: Is your feature request related to a problem? Please describe if so.
+      description: A clear and concise description of what the problem is.
+      placeholder: E.g. I'm always frustrated when [...]
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or supporting information (e.g. screenshots) about the problem here.
