@@ -16,7 +16,7 @@ body:
     validations:
       required: true
 
-    - type: textarea
+  - type: textarea
     id: problem-description
     attributes:
       label: Is your feature request related to a problem? Please describe if so.
