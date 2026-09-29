@@ -3,7 +3,7 @@ description: File a bug report.
 title: "[Bug]: "
 labels:
   - Bug
-project:
+projects:
 - "NERC-EDS/7"
 
 body:
