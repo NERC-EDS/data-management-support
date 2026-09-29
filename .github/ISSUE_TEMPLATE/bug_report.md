@@ -1,27 +1,43 @@
----
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: Bug
-assignees: ''
+description: Create a report to help us improve
+title: "[Bug]: "
+labels:
+  - Bug
 
----
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: What happened?
+    validations:
+      required: true
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behaviour
+      description: A clear and concise description of what you expected to happen.
+      placeholder: What should have happened instead?
+    validations:
+      required: true
 
-**To reproduce**
-Steps to reproduce the behaviour:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To reproduce
+      description: Steps to reproduce the behaviour.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
 
-**Expected behaviour**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or supporting information (e.g. screenshots) about the problem here.
